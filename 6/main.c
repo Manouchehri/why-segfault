@@ -19,8 +19,8 @@ void main() {
     x = (int *)malloc(sizeof(int));
     *x = 30;
     
-    modAddress(x);
     
     printf("x is %d \n", x);
     free(x);
+    modAddress(x);
 }
